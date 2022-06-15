@@ -1,0 +1,211 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+
+.home-menu {
+	border-bottom: 1px solid #cdcdcd;
+	;
+}
+
+.home-menu__list {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.home-menu__item {}
+
+.home-menu__link {
+	color: #181717;
+	font-size: 16px;
+	letter-spacing: 1.15px;
+}
+
+.info {
+	max-width: 600px;
+	line-height: 27px;
+}
+
+.info p {
+	margin-bottom: 100px;
+}
+
+.user-info__title {
+	padding-top: 100px;
+	font-size: 36px;
+	color: #181717;
+	margin-bottom: 25px;
+	letter-spacing: 1.15px;
+}
+
+.user-info__title::after {
+	content: "";
+	display: block;
+	width: 650px;
+	height: 2px;
+	background-color: rgb(24, 23, 23, .3);
+	margin-top: 10px;
+}
+
+.user-info__user-img {
+	margin-bottom: 20px;
+}
+
+.user-info__list {
+	margin-bottom: 100px;
+}
+
+.user-info__item:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.user-info__item {
+	padding: 7px 0 7px 25px;
+	background-image: url('../img/mark-checkbox.png');
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: left center;
+}
+
+.subtitle {
+	font-size: 28px;
+	color: rgb(24, 23, 23);
+	margin-bottom: 25px;
+	letter-spacing: 1.15px
+}
+
+.subtitle::after {
+	content: "";
+	display: block;
+	width: 650px;
+	height: 2px;
+	background-color: rgb(24, 23, 23, .3);
+	margin-top: 10px;
+}
+
+.skills__list {
+	margin-bottom: 100px;
+}
+
+.skills__item {
+	padding: 7px 0 7px 25px;
+	background-image: url('../img/mark-checkbox.png');
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: left center;
+}
+
+.code-example {
+	max-width: 500px;
+	padding: 30px;
+	border-radius: 30px;
+	background-color: rgb(224, 230, 249);
+	font-size: 18px;
+	line-height: 27px;
+	color: rgb(97, 132, 246);
+	margin-bottom: 100px;
+}
+
+.footer {
+	background-color: #2f2e2e;
+	color: #fff;
+	padding: 25px 0;
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.github img:hover {
+	opacity: 0.4;
+	transition: 0.3s;
+}
+
+.rs-school img:hover {
+	opacity: 0.4;
+	transition: 0.3s;
+}
+
+.contact {
+	margin-bottom: 100px;
+}
+
+.contact p {
+	margin-bottom: 10px;
+}
+
+.contact img:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.contact__list {
+	display: flex;
+}
+.contact__item {
+	margin-right: 15px;
+}
+
+.project {
+	margin-bottom: 100px;
+}
+
+.project__link {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
